@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="AES MADEITT">
+    <meta name="description" content="HOME PAGE">
+    <title>js glam studio,</title>
+    <link rel="icon" href="img/html_logo.png,jpg" type="image/jpg">
+    <link rel=" stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <h1> JS GLAM STUDIO.</h1>
+
+    <hr>
+    <p>WELCOME TO JS GLAM STUDIO WEBSITE.</p>
+    <image src="html5.png/html5.png.jpg" alt="html5 logo" <h3>ABOUT US</h3>
+
+
+        <hr>
+
+
+
+
+
+        <h4>JS Glam Studio is a modern beauty and styling salon dedicated to enhancing natural beauty and boost self
+            confidence.
+            With a focus on elegance and creativity, we offer premium services—from stunning braids to locs to twist and
+            cornrows. Known for its signature black-and-purple aesthetic and the empowering slogan “Glam Up Girl,” JS
+            Glam
+            Studio blends luxury with professionalism, creating an unforgettable beauty experience for every customer.
+        </h4>
+
+        <h5>WE PROVIDE HOME SERVICES IN ACCRA AND KOFORIDUA</h5>
+
+
+
+
+
+        <a href="#contact">CONTACT US :0553662325/0599357714</a>
+        <br>
+        <a>>Email;jeanetteoffei@gmail.com</a>
+
+
+
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Braiding Service Booking</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                max-width: 500px;
+                margin: auto;
+                padding: 20px;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            label {
+                font-weight: bold;
+            }
+
+            input,
+            select,
+            textarea,
+            button {
+                padding: 8px;
+                font-size: 16px;
+            }
+
+            button {
+                background: #007bff;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background: #0056b3;
+            }
+        </style>
+        </head>
+
+        <body>
+            <h1>Book a Braiding Service at Home</h1>
+            <form action="                 
+        <label for=" name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email (optional)</label>
+                <input type="email" id="email" name="email">
+
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Preferred Time</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="braidType">Braid Type</label>
+                <select id="braidType" name="braidType" required>
+                    <option value="">Select</option>
+                    <option value="Box Braids">Box Braids</option>
+                    <option value="Cornrows">Cornrows</option>
+                    <option value="Twists">Twists</option>
+                    <option value="Knotless Braids">Knotless Braids</option>
+                    <option value="Other">Other (specify below)</option>
+                </select>
+
+                <label for="notes">Additional Notes</label>
+                <textarea id="notes" name="notes" rows="4"
+                    placeholder="Hair length, color, any allergies, etc."></textarea>
+
+                <label for="address">Home Address</label>
+                <textarea id="address" name="address" rows="2" required></textarea>
+
+                <label for="amount">booking a service amount(GHS)</label>
+                <input type="number" id="amount" name="amount" value="20" readonly>
+
+                <label for="momoNumber">Mobile Money Number</label>
+                <input type="tel" id="momoNumber" name="momoNumber" required>
+
+                <label for="momoName">Mobile Money Name</label>
+                <input type="text" id="momoName" name="momoName" required>
+
+                <button type="submit">Confirm & Pay</button>
+            </form>
+
+            <script>
+                document.querySelector('form').addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    const phone = document.getElementById('phone').value;
+                    const amount = document.getElementById('amount').value;
+                    const momoNumber = document.getElementById('momoNumber').value;
+
+                    if (phone === momoNumber) {
+                        alert('Please use a different number for payment.');
+                        return;
+                    }
+
+                    const confirmPayment = confirm(Pay GHS ${ amount } via Mobile Money ?);
+                    if (confirmPayment) {
+                        alert('Payment successful! Booking confirmed.');
+                        // Add backend submission code here
+                    } else {
+                        alert('Payment cancelled.');
+                    }
+                });
+            </script>
+
+
+            <hr>
+            &lt;&lt;&lt;&copy;aes madeitt &gt;&gt;&gt;
+
+        </body>
+
+        </html>
